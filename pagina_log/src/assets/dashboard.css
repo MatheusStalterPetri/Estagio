@@ -1,0 +1,68 @@
+h3,
+h4 {
+    font-weight: 600;
+    font-family: Montserrat, Arial, sans-serif;
+}
+
+
+.gradient-background-1 {
+    background-image: linear-gradient(to left, #ABDCFF 10%, #0396FF 100%);
+}
+
+.gradient-background-2 {
+    background-image: linear-gradient(to left, #2AFADF 10%, #4C83FF 100%);
+}
+
+.gradient-background-3 {
+    background-image: linear-gradient(to left, #FFD3A5 10%, #FD6585 100%);
+}
+
+.gradient-background-4 {
+    background-image: linear-gradient(to left, #EE9AE5 10%, #5961F9 100%);
+}
+
+.box {
+    position: relative;
+    display: flex;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border-radius: 0.25rem;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+}
+
+.box-body {
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+.nav-box {
+    flex: 1 1 auto;
+    padding: 0.5rem;
+}
+
+.nav-button {
+    margin-right: 0.5rem;
+}
+
+.box-title {
+    margin-bottom: 0.75rem;
+}
+
+.box-text {
+    margin-bottom: 0;
+
+}
+
+.box-chart { 
+    background-color: #7e8db4;
+    position: relative;
+    display: flex;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+}
+
