@@ -97,7 +97,7 @@ export default {
 
       reader.onload = () => {
         const logs = reader.result.split('\n').map((log) => {
-          const [timeElapsed, tempoResposta, enderecoDoCliente, codeStatus, bytes, methodUrl, uri, type] = log.split(' ');
+          const [timeElapsed, tempoResposta, enderecoDoCliente, codeStatus, bytes, methodUrl, uri, type] = log.replace(/\s+/g, ' ').trim().split(' ');
 
           const formattedTime = moment.unix(timeElapsed).format('DD-MM-YYYY HH:mm:ss');
 
